@@ -1,0 +1,1432 @@
+{
+    "v0.19.1": {
+        "vivokey-otp.cap": {
+            "persistent": 5416,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1460,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2684,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3300,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4484,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24948,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24948,
+            "transient": 2102
+        },
+        "SeedKeeper.cap": {
+            "persistent": 20364,
+            "transient": 1219
+        },
+        "Satodime.cap": {
+            "persistent": 11704,
+            "transient": 944
+        },
+        "SatoChip.cap": {
+            "persistent": 19276,
+            "transient": 1363
+        },
+        "FIDO2.cap": {
+            "persistent": 38564,
+            "transient": 1365
+        }
+    },
+    "v0.19.0": {
+        "vivokey-otp.cap": {
+            "persistent": 5416,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1460,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2684,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3300,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4484,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24948,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24948,
+            "transient": 2102
+        },
+        "SeedKeeper.cap": {
+            "persistent": 20364,
+            "transient": 1219
+        },
+        "Satodime.cap": {
+            "persistent": 11704,
+            "transient": 944
+        },
+        "SatoChip.cap": {
+            "persistent": 19276,
+            "transient": 1363
+        },
+        "FIDO2.cap": {
+            "persistent": 152,
+            "transient": 0
+        }
+    },
+    "v0.18.9": {
+        "vivokey-otp.cap": {
+            "persistent": 5416,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1464,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2684,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3300,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4484,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24948,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24948,
+            "transient": 2102
+        },
+        "SeedKeeper.cap": {
+            "persistent": 13100,
+            "transient": 0
+        },
+        "Satodime.cap": {
+            "persistent": 11704,
+            "transient": 0
+        },
+        "SatoChip.cap": {
+            "persistent": 19276,
+            "transient": 19
+        },
+        "FIDO2.cap": {
+            "persistent": 38536,
+            "transient": 597
+        }
+    },
+    "v0.18.8": {
+        "vivokey-otp.cap": {
+            "persistent": 5416,
+            "transient": 248
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1464,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2684,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3300,
+            "transient": 256
+        },
+        "U2FApplet.cap": {
+            "persistent": 4484,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 0,
+            "transient": 0
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24948,
+            "transient": 2102
+        },
+        "SeedKeeper.cap": {
+            "persistent": 20368,
+            "transient": 1219
+        },
+        "Satodime.cap": {
+            "persistent": 11704,
+            "transient": 944
+        },
+        "SatoChip.cap": {
+            "persistent": 19276,
+            "transient": 1363
+        },
+        "FIDO2.cap": {
+            "persistent": 38476,
+            "transient": 1365
+        }
+    },
+    "v0.18.7": {
+        "vivokey-otp.cap": {
+            "persistent": 5416,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1464,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2684,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3300,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4484,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24948,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24948,
+            "transient": 2102
+        },
+        "SeedKeeper.cap": {
+            "persistent": 20368,
+            "transient": 1219
+        },
+        "Satodime.cap": {
+            "persistent": 11704,
+            "transient": 944
+        },
+        "SatoChip.cap": {
+            "persistent": 19276,
+            "transient": 1363
+        },
+        "FIDO2.cap": {
+            "persistent": 38476,
+            "transient": 1365
+        }
+    },
+    "v0.18.6": {
+        "vivokey-otp.cap": {
+            "persistent": 5416,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1464,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2684,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3300,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4484,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 16892,
+            "transient": 0
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24948,
+            "transient": 2102
+        },
+        "SeedKeeper.cap": {
+            "persistent": 20368,
+            "transient": 1219
+        },
+        "Satodime.cap": {
+            "persistent": 11704,
+            "transient": 944
+        },
+        "SatoChip.cap": {
+            "persistent": 19276,
+            "transient": 1363
+        },
+        "FIDO2.cap": {
+            "persistent": 38476,
+            "transient": 1365
+        }
+    },
+    "v0.18.5": {
+        "vivokey-otp.cap": {
+            "persistent": 5416,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1460,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2684,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3300,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4484,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24948,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24948,
+            "transient": 2102
+        },
+        "SeedKeeper.cap": {
+            "persistent": 20364,
+            "transient": 1219
+        },
+        "Satodime.cap": {
+            "persistent": 7620,
+            "transient": 0
+        },
+        "SatoChip.cap": {
+            "persistent": 19276,
+            "transient": 1363
+        },
+        "FIDO2.cap": {
+            "persistent": 38404,
+            "transient": 1365
+        }
+    },
+    "v0.18.4": {
+        "vivokey-otp.cap": {
+            "persistent": 5416,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1460,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2684,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3300,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4484,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24948,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24948,
+            "transient": 2102
+        },
+        "SeedKeeper.cap": {
+            "persistent": 20364,
+            "transient": 1219
+        },
+        "Satodime.cap": {
+            "persistent": 11704,
+            "transient": 944
+        },
+        "SatoChip.cap": {
+            "persistent": 19276,
+            "transient": 1363
+        },
+        "FIDO2.cap": {
+            "persistent": 38388,
+            "transient": 1365
+        }
+    },
+    "v0.18.3": {
+        "vivokey-otp.cap": {
+            "persistent": 5416,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1460,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2684,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3300,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4484,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24948,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24948,
+            "transient": 2102
+        },
+        "SeedKeeper.cap": {
+            "persistent": 20364,
+            "transient": 1219
+        },
+        "Satodime.cap": {
+            "persistent": 11704,
+            "transient": 944
+        },
+        "SatoChip.cap": {
+            "persistent": 19276,
+            "transient": 1363
+        },
+        "FIDO2.cap": {
+            "persistent": 38388,
+            "transient": 1365
+        }
+    },
+    "v0.18.2": {
+        "vivokey-otp.cap": {
+            "persistent": 5416,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1460,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2684,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3300,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 0,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24948,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24948,
+            "transient": 2102
+        },
+        "SeedKeeper.cap": {
+            "persistent": 20364,
+            "transient": 1219
+        },
+        "Satodime.cap": {
+            "persistent": 11704,
+            "transient": 944
+        },
+        "SatoChip.cap": {
+            "persistent": 19276,
+            "transient": 1363
+        },
+        "FIDO2.cap": {
+            "persistent": 38388,
+            "transient": 1365
+        }
+    },
+    "v0.17": {
+        "vivokey-otp.cap": {
+            "persistent": 5284,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2566
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2006
+        },
+        "SeedKeeper.cap": {
+            "persistent": 12976,
+            "transient": 1120
+        },
+        "Satodime.cap": {
+            "persistent": 11588,
+            "transient": 0
+        },
+        "SatoChip.cap": {
+            "persistent": 19148,
+            "transient": 1267
+        },
+        "FIDO2.cap": {
+            "persistent": 38328,
+            "transient": 1269
+        }
+    },
+    "v0.16.4": {
+        "vivokey-otp.cap": {
+            "persistent": 5284,
+            "transient": 2248
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 0,
+            "transient": 0
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "Ledger-wallet.cap": {
+            "persistent": 36228,
+            "transient": 1430
+        },
+        "Ledger-eligibility.cap": {
+            "persistent": 22344,
+            "transient": 800
+        }
+    },
+    "v0.16.3": {
+        "vivokey-otp.cap": {
+            "persistent": 5276,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "Ledger-wallet.cap": {
+            "persistent": 36228,
+            "transient": 1430
+        },
+        "Ledger-eligibility.cap": {
+            "persistent": 22344,
+            "transient": 800
+        }
+    },
+    "v0.16.2": {
+        "vivokey-otp.cap": {
+            "persistent": 5280,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2000,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "Ledger-wallet.cap": {
+            "persistent": 36228,
+            "transient": 1430
+        },
+        "Ledger-eligibility.cap": {
+            "persistent": 22344,
+            "transient": 800
+        }
+    },
+    "v0.16.1": {
+        "vivokey-otp.cap": {
+            "persistent": 5280,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2000,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "Ledger-wallet.cap": {
+            "persistent": 36228,
+            "transient": 1430
+        },
+        "Ledger-eligibility.cap": {
+            "persistent": 22344,
+            "transient": 800
+        }
+    },
+    "v0.16": {
+        "vivokey-otp.cap": {
+            "persistent": 5268,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "Ledger-wallet.cap": {
+            "persistent": 36228,
+            "transient": 1430
+        },
+        "Ledger-eligibility.cap": {
+            "persistent": 22344,
+            "transient": 800
+        }
+    },
+    "v0.15.2": {
+        "vivokey-otp.cap": {
+            "persistent": 5268,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": -180,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "Ledger-wallet.cap": {
+            "persistent": 36228,
+            "transient": 1430
+        },
+        "Ledger-eligibility.cap": {
+            "persistent": 22344,
+            "transient": 800
+        }
+    },
+    "v0.15.1": {
+        "vivokey-otp.cap": {
+            "persistent": 5280,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "Ledger-wallet.cap": {
+            "persistent": 36228,
+            "transient": 1430
+        },
+        "Ledger-eligibility.cap": {
+            "persistent": 22344,
+            "transient": 800
+        }
+    },
+    "v0.14.0": {
+        "vivokey-otp.cap": {
+            "persistent": 5128,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24436,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "Ledger-wallet.cap": {
+            "persistent": 36228,
+            "transient": 1430
+        },
+        "Ledger-eligibility.cap": {
+            "persistent": 22344,
+            "transient": 800
+        }
+    },
+    "v0.13.0": {
+        "vivokey-otp.cap": {
+            "persistent": 5128,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "Ledger-wallet.cap": {
+            "persistent": 36228,
+            "transient": 1430
+        },
+        "Ledger-eligibility.cap": {
+            "persistent": 22344,
+            "transient": 800
+        }
+    },
+    "v0.12.0": {
+        "vivokey-otp.cap": {
+            "persistent": 5128,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 2272,
+            "transient": 0
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "Ledger-wallet.cap": {
+            "persistent": 36228,
+            "transient": 1430
+        },
+        "Ledger-eligibility.cap": {
+            "persistent": 22344,
+            "transient": 800
+        }
+    },
+    "v0.11.0": {
+        "vivokey-otp.cap": {
+            "persistent": 5128,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "Ledger-wallet.cap": {
+            "persistent": 36228,
+            "transient": 1430
+        },
+        "Ledger-eligibility.cap": {
+            "persistent": 22344,
+            "transient": 800
+        }
+    },
+    "v0.10.0": {
+        "vivokey-otp.cap": {
+            "persistent": 5128,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2000,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 0,
+            "transient": 0
+        },
+        "Ledger-wallet.cap": {
+            "persistent": 36480,
+            "transient": 1430
+        },
+        "Ledger-eligibility.cap": {
+            "persistent": 22344,
+            "transient": 800
+        }
+    },
+    "v0.9.0": {
+        "vivokey-otp.cap": {
+            "persistent": 5128,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "PivApplet-0.9.0-jc304-RSxLaD.cap": {
+            "persistent": 20212,
+            "transient": 916
+        },
+        "PivApplet-0.9.0-jc304-REePSAxaD.cap": {
+            "persistent": 27936,
+            "transient": 2404
+        },
+        "PivApplet-0.9.0-jc304-REePSAxa.cap": {
+            "persistent": 27736,
+            "transient": 2388
+        },
+        "PivApplet-0.9.0-jc304-REePSAaD.cap": {
+            "persistent": 27920,
+            "transient": 2404
+        },
+        "PivApplet-0.9.0-jc304-REePSAa.cap": {
+            "persistent": 27716,
+            "transient": 2388
+        },
+        "PivApplet-0.9.0-jc304-REePAxaD.cap": {
+            "persistent": 0,
+            "transient": 0
+        },
+        "PivApplet-0.9.0-jc304-EPSxLaD.cap": {
+            "persistent": 152,
+            "transient": 0
+        },
+        "PivApplet-0.9.0-jc222-RESxLD.cap": {
+            "persistent": 22980,
+            "transient": 1092
+        },
+        "PivApplet-0.9.0-jc222-RESAxaD.cap": {
+            "persistent": 27600,
+            "transient": 2180
+        },
+        "PivApplet-0.9.0-jc222-RESAaD.cap": {
+            "persistent": 27584,
+            "transient": 2180
+        },
+        "PivApplet-0.9.0-jc222-REAxaD.cap": {
+            "persistent": 27556,
+            "transient": 2180
+        },
+        "PivApplet-0.9.0-jc221-RESaD.cap": {
+            "persistent": 24024,
+            "transient": 1444
+        },
+        "PivApplet-0.9.0-jc221-RESLaD.cap": {
+            "persistent": 23204,
+            "transient": 1140
+        },
+        "PivApplet-0.9.0-jc221-RESLD.cap": {
+            "persistent": 22964,
+            "transient": 1092
+        },
+        "PivApplet-0.9.0-jc221-RESAaD.cap": {
+            "persistent": 27584,
+            "transient": 2180
+        }
+    },
+    "v0.8.0": {
+        "vivokey-otp.cap": {
+            "persistent": 5128,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "PivApplet-0.8.0-jc304-RSxL.cap": {
+            "persistent": 19492,
+            "transient": 884
+        },
+        "PivApplet-0.8.0-jc304-REePSAx.cap": {
+            "persistent": 27192,
+            "transient": 2356
+        },
+        "PivApplet-0.8.0-jc304-REePSA.cap": {
+            "persistent": 27152,
+            "transient": 2356
+        },
+        "PivApplet-0.8.0-jc304-EPSxL.cap": {
+            "persistent": 21440,
+            "transient": 836
+        },
+        "PivApplet-0.8.0-jc222-RESxL.cap": {
+            "persistent": 22524,
+            "transient": 1092
+        },
+        "PivApplet-0.8.0-jc222-RESAx.cap": {
+            "persistent": 26904,
+            "transient": 2148
+        },
+        "PivApplet-0.8.0-jc222-RESA.cap": {
+            "persistent": 26864,
+            "transient": 2148
+        }
+    },
+    "v0.7.0": {
+        "vivokey-otp.cap": {
+            "persistent": 5128,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4396,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "PivApplet-0.7.0-jc304-small.cap": {
+            "persistent": 18940,
+            "transient": 1790
+        },
+        "PivApplet-0.7.0-jc304-small-econly.cap": {
+            "persistent": 18024,
+            "transient": 1278
+        },
+        "PivApplet-0.7.0-jc304-default.cap": {
+            "persistent": 22304,
+            "transient": 2820
+        },
+        "PivApplet-0.7.0-jc222-small.cap": {
+            "persistent": 18876,
+            "transient": 1790
+        },
+        "PivApplet-0.7.0-jc222-small-rsaonly.cap": {
+            "persistent": 17168,
+            "transient": 1348
+        },
+        "PivApplet-0.7.0-jc222-default.cap": {
+            "persistent": 22236,
+            "transient": 2820
+        }
+    },
+    "v0.6.0": {
+        "vivokey-otp.cap": {
+            "persistent": 5128,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "PivApplet.cap": {
+            "persistent": 21992,
+            "transient": 2820
+        }
+    },
+    "v0.5.0": {
+        "vivokey-otp.cap": {
+            "persistent": 5128,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4392,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "PivApplet.cap": {
+            "persistent": 21916,
+            "transient": 2820
+        }
+    },
+    "v0.4.0": {
+        "vivokey-otp.cap": {
+            "persistent": 5128,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1356,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2580,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4400,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "PivApplet.cap": {
+            "persistent": 18208,
+            "transient": 768
+        }
+    },
+    "v0.3.0": {
+        "vivokey-otp.cap": {
+            "persistent": 5128,
+            "transient": 2344
+        },
+        "openjavacard-ndef-tiny.cap": {
+            "persistent": 1364,
+            "transient": 0
+        },
+        "openjavacard-ndef-full.cap": {
+            "persistent": 2588,
+            "transient": 0
+        },
+        "YkHMACApplet.cap": {
+            "persistent": 3204,
+            "transient": 352
+        },
+        "U2FApplet.cap": {
+            "persistent": 4400,
+            "transient": 0
+        },
+        "SmartPGPApplet-large.cap": {
+            "persistent": 24796,
+            "transient": 2662
+        },
+        "SmartPGPApplet-default.cap": {
+            "persistent": 24796,
+            "transient": 2102
+        },
+        "PivApplet-jc304.cap": {
+            "persistent": 11380,
+            "transient": 2316
+        },
+        "PivApplet-jc222.cap": {
+            "persistent": 9812,
+            "transient": 0
+        }
+    },
+    "v0.8.2": {
+        "PivApplet-0.8.2-jc304-RSxL.cap": {
+            "persistent": 19500,
+            "transient": 884
+        },
+        "PivApplet-0.8.2-jc304-REePSAx.cap": {
+            "persistent": 27304,
+            "transient": 2356
+        },
+        "PivApplet-0.8.2-jc304-REePSA.cap": {
+            "persistent": 27288,
+            "transient": 2356
+        },
+        "PivApplet-0.8.2-jc304-EPSxL.cap": {
+            "persistent": 21544,
+            "transient": 836
+        },
+        "PivApplet-0.8.2-jc222-RESxL.cap": {
+            "persistent": 22636,
+            "transient": 1092
+        },
+        "PivApplet-0.8.2-jc222-RESAx.cap": {
+            "persistent": 27016,
+            "transient": 2148
+        },
+        "PivApplet-0.8.2-jc222-RESA.cap": {
+            "persistent": 27000,
+            "transient": 2148
+        },
+        "PivApplet-0.8.2-jc221-RESL.cap": {
+            "persistent": 22620,
+            "transient": 1092
+        },
+        "PivApplet-0.8.2-jc221-RESA.cap": {
+            "persistent": 27000,
+            "transient": 2148
+        },
+        "PivApplet-0.8.2-jc221-RES.cap": {
+            "persistent": 23436,
+            "transient": 1412
+        }
+    },
+    "v0.8.1": {
+        "PivApplet-0.8.1-jc304-RSxL.cap": {
+            "persistent": 19500,
+            "transient": 884
+        },
+        "PivApplet-0.8.1-jc304-REePSAx.cap": {
+            "persistent": 27160,
+            "transient": 2356
+        },
+        "PivApplet-0.8.1-jc304-REePSA.cap": {
+            "persistent": 27192,
+            "transient": 2356
+        },
+        "PivApplet-0.8.1-jc304-EPSxL.cap": {
+            "persistent": 21448,
+            "transient": 836
+        },
+        "PivApplet-0.8.1-jc222-RESxL.cap": {
+            "persistent": 22544,
+            "transient": 1092
+        },
+        "PivApplet-0.8.1-jc222-RESAx.cap": {
+            "persistent": 26924,
+            "transient": 2148
+        },
+        "PivApplet-0.8.1-jc222-RESA.cap": {
+            "persistent": 26908,
+            "transient": 2148
+        },
+        "PivApplet-0.8.1-jc221-RESL.cap": {
+            "persistent": 22528,
+            "transient": 1092
+        },
+        "PivApplet-0.8.1-jc221-RESA.cap": {
+            "persistent": 0,
+            "transient": 0
+        },
+        "PivApplet-0.8.1-jc221-RES.cap": {
+            "persistent": 23344,
+            "transient": 1412
+        }
+    },
+    "v0.4.2": {
+        "PivApplet.cap": {
+            "persistent": 21316,
+            "transient": 2820
+        }
+    },
+    "v0.3.1": {
+        "PivApplet-jc222.cap": {
+            "persistent": 11308,
+            "transient": 2012
+        }
+    },
+    "v0.2.1": {
+        "PivApplet.cap": {
+            "persistent": 9972,
+            "transient": 2316
+        }
+    },
+    "v0.2.0": {
+        "PivApplet.cap": {
+            "persistent": 9692,
+            "transient": 2708
+        }
+    },
+    "v0.1.0": {
+        "PivApplet.cap": {
+            "persistent": 9628,
+            "transient": 2708
+        }
+    },
+    "1.1.0": {
+        "GaussKeyCard.cap": {
+            "persistent": 2776,
+            "transient": 48
+        }
+    },
+    "1.0.0": {
+        "GaussKeyCard.cap": {
+            "persistent": 2696,
+            "transient": 16
+        }
+    }
+}

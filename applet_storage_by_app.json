@@ -1,0 +1,424 @@
+{
+    "vivokey-otp.cap": {
+        "1.2": {
+            "persistent": 5416,
+            "transient": 248
+        },
+        "1.1": {
+            "persistent": 5280,
+            "transient": 2344
+        },
+        "1.0": {
+            "persistent": 5128,
+            "transient": 2344
+        }
+    },
+    "openjavacard-ndef-tiny.cap": {
+        "1.0": {
+            "persistent": 1460,
+            "transient": 0
+        },
+        "0.0": {
+            "persistent": 1364,
+            "transient": 0
+        }
+    },
+    "openjavacard-ndef-full.cap": {
+        "1.0": {
+            "persistent": 2684,
+            "transient": 0
+        },
+        "0.0": {
+            "persistent": 2588,
+            "transient": 0
+        }
+    },
+    "YkHMACApplet.cap": {
+        "1.0": {
+            "persistent": 3204,
+            "transient": 352
+        }
+    },
+    "U2FApplet.cap": {
+        "1.1": {
+            "persistent": 4400,
+            "transient": 0
+        }
+    },
+    "SmartPGPApplet-large.cap": {
+        "1.0": {
+            "persistent": 24796,
+            "transient": 2662
+        }
+    },
+    "SmartPGPApplet-default.cap": {
+        "1.0": {
+            "persistent": 24796,
+            "transient": 2102
+        }
+    },
+    "SeedKeeper.cap": {
+        "0.1": {
+            "persistent": 12976,
+            "transient": 1120
+        }
+    },
+    "Satodime.cap": {
+        "0.2": {
+            "persistent": 11704,
+            "transient": 944
+        },
+        "0.1": {
+            "persistent": 11588,
+            "transient": 0
+        }
+    },
+    "SatoChip.cap": {
+        "0.6": {
+            "persistent": 19276,
+            "transient": 1363
+        },
+        "0.1": {
+            "persistent": 19148,
+            "transient": 1267
+        }
+    },
+    "FIDO2.cap": {
+        "0.4": {
+            "persistent": 38476,
+            "transient": 1365
+        },
+        "0.1": {
+            "persistent": 38328,
+            "transient": 1269
+        }
+    },
+    "Ledger-wallet.cap": {
+        "1.0": {
+            "persistent": 36480,
+            "transient": 1430
+        }
+    },
+    "Ledger-eligibility.cap": {
+        "1.0": {
+            "persistent": 22344,
+            "transient": 800
+        }
+    },
+    "PivApplet-0.9.0-jc304-RSxLaD.cap": {
+        "1.0": {
+            "persistent": 20212,
+            "transient": 916
+        }
+    },
+    "PivApplet-0.9.0-jc304-REePSAxaD.cap": {
+        "1.0": {
+            "persistent": 27936,
+            "transient": 2404
+        }
+    },
+    "PivApplet-0.9.0-jc304-REePSAxa.cap": {
+        "1.0": {
+            "persistent": 27736,
+            "transient": 2388
+        }
+    },
+    "PivApplet-0.9.0-jc304-REePSAaD.cap": {
+        "1.0": {
+            "persistent": 27920,
+            "transient": 2404
+        }
+    },
+    "PivApplet-0.9.0-jc304-REePSAa.cap": {
+        "1.0": {
+            "persistent": 27716,
+            "transient": 2388
+        }
+    },
+    "PivApplet-0.9.0-jc304-REePAxaD.cap": {
+        "1.0": {
+            "persistent": 0,
+            "transient": 0
+        }
+    },
+    "PivApplet-0.9.0-jc304-EPSxLaD.cap": {
+        "1.0": {
+            "persistent": 152,
+            "transient": 0
+        }
+    },
+    "PivApplet-0.9.0-jc222-RESxLD.cap": {
+        "1.0": {
+            "persistent": 22980,
+            "transient": 1092
+        }
+    },
+    "PivApplet-0.9.0-jc222-RESAxaD.cap": {
+        "1.0": {
+            "persistent": 27600,
+            "transient": 2180
+        }
+    },
+    "PivApplet-0.9.0-jc222-RESAaD.cap": {
+        "1.0": {
+            "persistent": 27584,
+            "transient": 2180
+        }
+    },
+    "PivApplet-0.9.0-jc222-REAxaD.cap": {
+        "1.0": {
+            "persistent": 27556,
+            "transient": 2180
+        }
+    },
+    "PivApplet-0.9.0-jc221-RESaD.cap": {
+        "1.0": {
+            "persistent": 24024,
+            "transient": 1444
+        }
+    },
+    "PivApplet-0.9.0-jc221-RESLaD.cap": {
+        "1.0": {
+            "persistent": 23204,
+            "transient": 1140
+        }
+    },
+    "PivApplet-0.9.0-jc221-RESLD.cap": {
+        "1.0": {
+            "persistent": 22964,
+            "transient": 1092
+        }
+    },
+    "PivApplet-0.9.0-jc221-RESAaD.cap": {
+        "1.0": {
+            "persistent": 27584,
+            "transient": 2180
+        }
+    },
+    "PivApplet-0.8.2-jc304-RSxL.cap": {
+        "1.0": {
+            "persistent": 19500,
+            "transient": 884
+        }
+    },
+    "PivApplet-0.8.2-jc304-REePSAx.cap": {
+        "1.0": {
+            "persistent": 27304,
+            "transient": 2356
+        }
+    },
+    "PivApplet-0.8.2-jc304-REePSA.cap": {
+        "1.0": {
+            "persistent": 27288,
+            "transient": 2356
+        }
+    },
+    "PivApplet-0.8.2-jc304-EPSxL.cap": {
+        "1.0": {
+            "persistent": 21544,
+            "transient": 836
+        }
+    },
+    "PivApplet-0.8.2-jc222-RESxL.cap": {
+        "1.0": {
+            "persistent": 22636,
+            "transient": 1092
+        }
+    },
+    "PivApplet-0.8.2-jc222-RESAx.cap": {
+        "1.0": {
+            "persistent": 27016,
+            "transient": 2148
+        }
+    },
+    "PivApplet-0.8.2-jc222-RESA.cap": {
+        "1.0": {
+            "persistent": 27000,
+            "transient": 2148
+        }
+    },
+    "PivApplet-0.8.2-jc221-RESL.cap": {
+        "1.0": {
+            "persistent": 22620,
+            "transient": 1092
+        }
+    },
+    "PivApplet-0.8.2-jc221-RESA.cap": {
+        "1.0": {
+            "persistent": 27000,
+            "transient": 2148
+        }
+    },
+    "PivApplet-0.8.2-jc221-RES.cap": {
+        "1.0": {
+            "persistent": 23436,
+            "transient": 1412
+        }
+    },
+    "PivApplet-0.8.1-jc304-RSxL.cap": {
+        "1.0": {
+            "persistent": 19500,
+            "transient": 884
+        }
+    },
+    "PivApplet-0.8.1-jc304-REePSAx.cap": {
+        "1.0": {
+            "persistent": 27160,
+            "transient": 2356
+        }
+    },
+    "PivApplet-0.8.1-jc304-REePSA.cap": {
+        "1.0": {
+            "persistent": 27192,
+            "transient": 2356
+        }
+    },
+    "PivApplet-0.8.1-jc304-EPSxL.cap": {
+        "1.0": {
+            "persistent": 21448,
+            "transient": 836
+        }
+    },
+    "PivApplet-0.8.1-jc222-RESxL.cap": {
+        "1.0": {
+            "persistent": 22544,
+            "transient": 1092
+        }
+    },
+    "PivApplet-0.8.1-jc222-RESAx.cap": {
+        "1.0": {
+            "persistent": 26924,
+            "transient": 2148
+        }
+    },
+    "PivApplet-0.8.1-jc222-RESA.cap": {
+        "1.0": {
+            "persistent": 26908,
+            "transient": 2148
+        }
+    },
+    "PivApplet-0.8.1-jc221-RESL.cap": {
+        "1.0": {
+            "persistent": 22528,
+            "transient": 1092
+        }
+    },
+    "PivApplet-0.8.1-jc221-RESA.cap": {
+        "1.0": {
+            "persistent": 0,
+            "transient": 0
+        }
+    },
+    "PivApplet-0.8.1-jc221-RES.cap": {
+        "1.0": {
+            "persistent": 23344,
+            "transient": 1412
+        }
+    },
+    "PivApplet-0.8.0-jc304-RSxL.cap": {
+        "1.0": {
+            "persistent": 19492,
+            "transient": 884
+        }
+    },
+    "PivApplet-0.8.0-jc304-REePSAx.cap": {
+        "1.0": {
+            "persistent": 27192,
+            "transient": 2356
+        }
+    },
+    "PivApplet-0.8.0-jc304-REePSA.cap": {
+        "1.0": {
+            "persistent": 27152,
+            "transient": 2356
+        }
+    },
+    "PivApplet-0.8.0-jc304-EPSxL.cap": {
+        "1.0": {
+            "persistent": 21440,
+            "transient": 836
+        }
+    },
+    "PivApplet-0.8.0-jc222-RESxL.cap": {
+        "1.0": {
+            "persistent": 22524,
+            "transient": 1092
+        }
+    },
+    "PivApplet-0.8.0-jc222-RESAx.cap": {
+        "1.0": {
+            "persistent": 26904,
+            "transient": 2148
+        }
+    },
+    "PivApplet-0.8.0-jc222-RESA.cap": {
+        "1.0": {
+            "persistent": 26864,
+            "transient": 2148
+        }
+    },
+    "PivApplet-0.7.0-jc304-small.cap": {
+        "1.0": {
+            "persistent": 18940,
+            "transient": 1790
+        }
+    },
+    "PivApplet-0.7.0-jc304-small-econly.cap": {
+        "1.0": {
+            "persistent": 18024,
+            "transient": 1278
+        }
+    },
+    "PivApplet-0.7.0-jc304-default.cap": {
+        "1.0": {
+            "persistent": 22304,
+            "transient": 2820
+        }
+    },
+    "PivApplet-0.7.0-jc222-small.cap": {
+        "1.0": {
+            "persistent": 18876,
+            "transient": 1790
+        }
+    },
+    "PivApplet-0.7.0-jc222-small-rsaonly.cap": {
+        "1.0": {
+            "persistent": 17168,
+            "transient": 1348
+        }
+    },
+    "PivApplet-0.7.0-jc222-default.cap": {
+        "1.0": {
+            "persistent": 22236,
+            "transient": 2820
+        }
+    },
+    "PivApplet.cap": {
+        "1.0": {
+            "persistent": 9628,
+            "transient": 2708
+        }
+    },
+    "PivApplet-jc222.cap": {
+        "1.0": {
+            "persistent": 9812,
+            "transient": 0
+        }
+    },
+    "PivApplet-jc304.cap": {
+        "1.0": {
+            "persistent": 11380,
+            "transient": 2316
+        }
+    },
+    "GaussKeyCard.cap": {
+        "1.1": {
+            "persistent": 2776,
+            "transient": 48
+        },
+        "1.0": {
+            "persistent": 2696,
+            "transient": 16
+        }
+    }
+}
