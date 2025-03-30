@@ -354,6 +354,7 @@ def get_memory(reader, retry=0):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         formatter_class=argparse.RawTextHelpFormatter,
+        description="This tool polls select (or a specified) github repo for .cap files to determine their storage requirements.",
     )
     parser.add_argument(
         "--mode",
@@ -365,6 +366,13 @@ if __name__ == "__main__":
         ),
     )
 
+    parser.add_argument(
+        "--owner", type=str, help="Github username. --repo param must be used as well"
+    )
+    parser.add_argument(
+        "--repo", type=str, help="Github repo name. --owner param must be used as well"
+    )
+
     args = parser.parse_args()
 
     MODE = args.mode or "app"
@@ -372,6 +380,12 @@ if __name__ == "__main__":
         MODE = "all"
     if MODE.lower() not in ["app", "release", "all"]:
         MODE = "app"
+
+    if args.owner and args.repo:
+        REPOS = [{"owner": args.owner, "repo": args.repo}]
+    elif args.owner and not args.repo or not args.owner and args.repo:
+        print("Both 'owner' and 'repo' are required if one is used")
+        exit()
 
     start_time = time.time()
 

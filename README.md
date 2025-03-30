@@ -20,14 +20,17 @@ This repo contains output examples of a run in 'all' mode.
 python main.py -h
 ```
 ```commandline
-usage: main.py [-h] [--mode MODE]
+usage: main.py [-h] [--mode MODE] [--owner OWNER] [--repo REPO]
+
+This tool polls select (or a specified) github repo for .cap files to determine their storage requirements.
 
 options:
-  -h, --help   show this help message and exit
-  --mode MODE  'app': Group versions within each app (default)
-               'release': Group apps within releases
-               'both|all': Generate both files
-
+  -h, --help     show this help message and exit
+  --mode MODE    'app': Group versions within each app (default)
+                 'release': Group apps within releases
+                 'both|all': Generate both files
+  --owner OWNER  Github username. --repo param must be used as well
+  --repo REPO    Github repo name. --owner param must be used as well
 ```
 
 Modes:
@@ -37,6 +40,9 @@ Modes:
 - **release**: every release will contain every app in it along with the data.
   - This will install every app in every release. Pretty time-consuming. >1 hour (for flexsecure-applets only)
 - '**all**'|'**both**': You'll get both files. Takes no more time than doing a 'release' mode.
+
+If you wish to poll a repo not listed and don't feel like adding it to the list, or just want to check one
+repo you can supply --owner and --repo params to target just that repo.
 
 I tend to tee the output:
 ```powershell
