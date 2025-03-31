@@ -1,7 +1,7 @@
 {
     "v0.19.1": {
         "vivokey-otp.cap": {
-            "persistent": 5416,
+            "persistent": 5264,
             "transient": 2344
         },
         "openjavacard-ndef-tiny.cap": {
@@ -9,7 +9,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2684,
+            "persistent": 2428,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -55,7 +55,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2684,
+            "persistent": 2428,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -87,8 +87,8 @@
             "transient": 1363
         },
         "FIDO2.cap": {
-            "persistent": 152,
-            "transient": 0
+            "persistent": 38560,
+            "transient": 1365
         }
     },
     "v0.18.9": {
@@ -101,7 +101,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2684,
+            "persistent": 2428,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -121,46 +121,46 @@
             "transient": 2102
         },
         "SeedKeeper.cap": {
-            "persistent": 13100,
-            "transient": 0
+            "persistent": 20368,
+            "transient": 1219
         },
         "Satodime.cap": {
             "persistent": 11704,
-            "transient": 0
+            "transient": 944
         },
         "SatoChip.cap": {
             "persistent": 19276,
-            "transient": 19
+            "transient": 1363
         },
         "FIDO2.cap": {
             "persistent": 38536,
-            "transient": 597
+            "transient": 1365
         }
     },
     "v0.18.8": {
         "vivokey-otp.cap": {
             "persistent": 5416,
-            "transient": 248
+            "transient": 2344
         },
         "openjavacard-ndef-tiny.cap": {
             "persistent": 1464,
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2684,
+            "persistent": 2428,
             "transient": 0
         },
         "YkHMACApplet.cap": {
             "persistent": 3300,
-            "transient": 256
+            "transient": 352
         },
         "U2FApplet.cap": {
             "persistent": 4484,
             "transient": 0
         },
         "SmartPGPApplet-large.cap": {
-            "persistent": 0,
-            "transient": 0
+            "persistent": 24948,
+            "transient": 2662
         },
         "SmartPGPApplet-default.cap": {
             "persistent": 24948,
@@ -193,7 +193,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2684,
+            "persistent": 2428,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -239,7 +239,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2684,
+            "persistent": 2428,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -251,8 +251,8 @@
             "transient": 0
         },
         "SmartPGPApplet-large.cap": {
-            "persistent": 16892,
-            "transient": 0
+            "persistent": 24948,
+            "transient": 2662
         },
         "SmartPGPApplet-default.cap": {
             "persistent": 24948,
@@ -285,7 +285,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2684,
+            "persistent": 2428,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -309,8 +309,8 @@
             "transient": 1219
         },
         "Satodime.cap": {
-            "persistent": 7620,
-            "transient": 0
+            "persistent": 11704,
+            "transient": 944
         },
         "SatoChip.cap": {
             "persistent": 19276,
@@ -331,7 +331,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2684,
+            "persistent": 2428,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -377,7 +377,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2684,
+            "persistent": 2428,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -423,7 +423,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2684,
+            "persistent": 2428,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -431,7 +431,7 @@
             "transient": 352
         },
         "U2FApplet.cap": {
-            "persistent": 0,
+            "persistent": 4484,
             "transient": 0
         },
         "SmartPGPApplet-large.cap": {
@@ -469,7 +469,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -482,45 +482,45 @@
         },
         "SmartPGPApplet-large.cap": {
             "persistent": 24796,
-            "transient": 2566
+            "transient": 2662
         },
         "SmartPGPApplet-default.cap": {
             "persistent": 24796,
-            "transient": 2006
+            "transient": 2102
         },
         "SeedKeeper.cap": {
-            "persistent": 12976,
-            "transient": 1120
+            "persistent": 20244,
+            "transient": 1219
         },
         "Satodime.cap": {
             "persistent": 11588,
-            "transient": 0
+            "transient": 944
         },
         "SatoChip.cap": {
             "persistent": 19148,
-            "transient": 1267
+            "transient": 1363
         },
         "FIDO2.cap": {
             "persistent": 38328,
-            "transient": 1269
+            "transient": 1365
         }
     },
     "v0.16.4": {
         "vivokey-otp.cap": {
             "persistent": 5284,
-            "transient": 2248
+            "transient": 2344
         },
         "openjavacard-ndef-tiny.cap": {
             "persistent": 1356,
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
-            "persistent": 0,
-            "transient": 0
+            "persistent": 3204,
+            "transient": 352
         },
         "U2FApplet.cap": {
             "persistent": 4392,
@@ -553,7 +553,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -591,7 +591,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2000,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -629,7 +629,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2000,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -667,7 +667,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -705,7 +705,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": -180,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -743,7 +743,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -781,7 +781,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -793,7 +793,7 @@
             "transient": 0
         },
         "SmartPGPApplet-large.cap": {
-            "persistent": 24436,
+            "persistent": 24796,
             "transient": 2662
         },
         "SmartPGPApplet-default.cap": {
@@ -819,7 +819,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -857,12 +857,12 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
-            "persistent": 2272,
-            "transient": 0
+            "persistent": 3204,
+            "transient": 352
         },
         "U2FApplet.cap": {
             "persistent": 4392,
@@ -895,7 +895,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -933,7 +933,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2000,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -949,8 +949,8 @@
             "transient": 2662
         },
         "SmartPGPApplet-default.cap": {
-            "persistent": 0,
-            "transient": 0
+            "persistent": 24796,
+            "transient": 2102
         },
         "Ledger-wallet.cap": {
             "persistent": 36480,
@@ -971,7 +971,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -1011,12 +1011,12 @@
             "transient": 2388
         },
         "PivApplet-0.9.0-jc304-REePAxaD.cap": {
-            "persistent": 0,
-            "transient": 0
+            "persistent": 27888,
+            "transient": 2404
         },
         "PivApplet-0.9.0-jc304-EPSxLaD.cap": {
-            "persistent": 152,
-            "transient": 0
+            "persistent": 22212,
+            "transient": 884
         },
         "PivApplet-0.9.0-jc222-RESxLD.cap": {
             "persistent": 22980,
@@ -1061,7 +1061,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -1119,7 +1119,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -1173,7 +1173,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -1207,7 +1207,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -1241,7 +1241,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2580,
+            "persistent": 2324,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -1275,7 +1275,7 @@
             "transient": 0
         },
         "openjavacard-ndef-full.cap": {
-            "persistent": 2588,
+            "persistent": 2332,
             "transient": 0
         },
         "YkHMACApplet.cap": {
@@ -1299,8 +1299,8 @@
             "transient": 2316
         },
         "PivApplet-jc222.cap": {
-            "persistent": 9812,
-            "transient": 0
+            "persistent": 11292,
+            "transient": 2316
         }
     },
     "v0.8.2": {
@@ -1379,8 +1379,8 @@
             "transient": 1092
         },
         "PivApplet-0.8.1-jc221-RESA.cap": {
-            "persistent": 0,
-            "transient": 0
+            "persistent": 26908,
+            "transient": 2148
         },
         "PivApplet-0.8.1-jc221-RES.cap": {
             "persistent": 23344,

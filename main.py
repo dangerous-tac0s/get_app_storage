@@ -55,7 +55,7 @@ def fetch_github_releases(owner: str, repo: str) -> list:
 
 
 def fetch_github_release(
-    owner: str, repo: str, version=None | str, verbose=False
+    owner: str, repo: str, version: None | str = None, verbose=False
 ) -> dict[str, str] or dict[str]:
     """
     Fetch a release from GitHub for the 'DangerousThings/flexsecure-applets' repo.
@@ -67,7 +67,7 @@ def fetch_github_release(
     Returns:
         dict[str, str]: A dictionary with the asset name as the key and download URL as the value.
     """
-    if version:
+    if version is not None:
         # If a specific version is requested, fetch that release by tag name
         url = f"https://api.github.com/repos/{owner}/{repo}/releases/tags/{version}"
     else:
@@ -298,18 +298,12 @@ def get_memory(reader, retry=0):
         time.sleep(0.1)
         return get_memory(reader, retry=retry + 1)
 
-    # except NoCardException as e:
-    #     if retry > 3:
-    #         print(e)
-    #         return None
-    #
-    #     return get_memory(reader, retry=retry + 1)
-
+    connection.disconnect()
     if sw1 == 0x90 and sw2 == 0x00:
         # success: Applet selected, card response is ok
         # Parse response
         memory_persistent = int.from_bytes(data[0:4], "big")
-        memory_persistent_total = int.from_bytes(data[5:7], "big")
+        memory_persistent_total = int.from_bytes(data[4:8], "big")
         memory_persistent_percentage = min(
             ## 99% at most because we'll at least have free memory installed
             0.99,
@@ -321,8 +315,6 @@ def get_memory(reader, retry=0):
             1.0,
             (((memory_transient_reset + memory_transient_deselect) / 2.0) / 4096.0),
         )
-
-        connection.disconnect()
 
         return {
             # Storage
@@ -342,13 +334,10 @@ def get_memory(reader, retry=0):
     else:
         sw1 = f"{sw1:02x}"
         sw2 = f"{sw2:02x}"
-        print("error: Card response: " + f"{sw1}" + " " + f"{sw2}")
 
         if sw1 == "6a" and sw2 == "82":
             # App not installed
             return -1
-
-    connection.disconnect()
 
 
 if __name__ == "__main__":
@@ -371,6 +360,11 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--repo", type=str, help="Github repo name. --owner param must be used as well"
+    )
+    parser.add_argument(
+        "--release",
+        type=str,
+        help="Specific release. --owner and --repo must be set as well",
     )
 
     args = parser.parse_args()
@@ -421,7 +415,11 @@ if __name__ == "__main__":
     for each in REPOS:
         owner = each["owner"]
         repo = each["repo"]
-        releases = fetch_github_releases(owner=owner, repo=repo)
+
+        if args.release:
+            releases = [{"tag_name": args.release}]
+        else:
+            releases = fetch_github_releases(owner=owner, repo=repo)
 
         if len(releases) > 0:
             print(f"{owner}/{repo}")
@@ -496,6 +494,42 @@ if __name__ == "__main__":
                     print("Unable to parse manifest", end=" ")
 
                 pre_install = get_memory(r)
+
+                if pre_install == -1:  # free memory not installed
+                    res = fetch_github_release(
+                        "dangerousthings", "flexsecure-applets", verbose=True
+                    )
+
+                    print(res)
+
+                    apps = res["apps"]
+
+                    free_memory = next(
+                        [app_name, app_url]
+                        for app_name, app_url in apps.items()
+                        if "memory" in app_name
+                    )
+
+                    try:
+                        download_resp = requests.get(free_memory[1], stream=True)
+                        download_resp.raise_for_status()
+                    except ConnectionError as e:
+                        print(e)
+                        exit()
+
+                    with open(free_memory[0], "wb") as f:
+                        for chunk in download_resp.iter_content(chunk_size=8192):
+                            f.write(chunk)
+
+                    subprocess.run(
+                        ["gp.exe", "--key", DEFAULT_KEY, "--install", free_memory[0]]
+                    )
+
+                    if os.path.exists(free_memory[0]):
+                        os.remove(free_memory[0])
+
+                    pre_install = get_memory(r)
+
                 while pre_install is None:
 
                     pre_install = get_memory(r)
@@ -520,17 +554,25 @@ if __name__ == "__main__":
 
                 storage[app_name] = {
                     "meta": select_parsed_manifest,
-                    "persistent": post_install["persistent"]["used"]
-                    - pre_install["persistent"]["used"],
+                    "persistent": (
+                        post_install["persistent"]["used"]
+                        - pre_install["persistent"]["used"]
+                    ),
                     "transient": (
-                        pre_install["transient"]["reset_free"]
-                        + pre_install["transient"]["deselect_free"]
-                    )
-                    - (
-                        post_install["transient"]["reset_free"]
-                        + post_install["transient"]["deselect_free"]
+                        (
+                            pre_install["transient"]["reset_free"]
+                            + pre_install["transient"]["deselect_free"]
+                        )
+                        - (
+                            post_install["transient"]["reset_free"]
+                            + post_install["transient"]["deselect_free"]
+                        )
                     ),
                 }
+
+                if "ndef-full" in app_name:
+                    storage[app_name]["persistent"] -= 256
+
                 os.remove(download_path)
 
                 if storage[app_name]["meta"]["app_version"]:
@@ -539,7 +581,7 @@ if __name__ == "__main__":
                         end=" ",
                     )
 
-                print(f"Installed in {app_end_time - app_start_time:.03} seconds")
+                print(f"Installed in {app_end_time - app_start_time:.02f} seconds")
 
             for app in storage:
                 if MODE in ["app", "all"]:
@@ -557,6 +599,7 @@ if __name__ == "__main__":
                         "transient": storage[app]["transient"],
                     }
             print()
+            time.sleep(30)
 
     print(f"Elapsed time: {str(timedelta(seconds=int(time.time() - start_time)))}")
 

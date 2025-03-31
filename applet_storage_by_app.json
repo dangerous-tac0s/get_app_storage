@@ -2,7 +2,7 @@
     "vivokey-otp.cap": {
         "1.2": {
             "persistent": 5416,
-            "transient": 248
+            "transient": 2344
         },
         "1.1": {
             "persistent": 5280,
@@ -25,11 +25,11 @@
     },
     "openjavacard-ndef-full.cap": {
         "1.0": {
-            "persistent": 2684,
+            "persistent": 2428,
             "transient": 0
         },
         "0.0": {
-            "persistent": 2588,
+            "persistent": 2332,
             "transient": 0
         }
     },
@@ -59,8 +59,8 @@
     },
     "SeedKeeper.cap": {
         "0.1": {
-            "persistent": 12976,
-            "transient": 1120
+            "persistent": 20244,
+            "transient": 1219
         }
     },
     "Satodime.cap": {
@@ -70,7 +70,7 @@
         },
         "0.1": {
             "persistent": 11588,
-            "transient": 0
+            "transient": 944
         }
     },
     "SatoChip.cap": {
@@ -80,7 +80,7 @@
         },
         "0.1": {
             "persistent": 19148,
-            "transient": 1267
+            "transient": 1363
         }
     },
     "FIDO2.cap": {
@@ -90,7 +90,7 @@
         },
         "0.1": {
             "persistent": 38328,
-            "transient": 1269
+            "transient": 1365
         }
     },
     "Ledger-wallet.cap": {
@@ -137,14 +137,14 @@
     },
     "PivApplet-0.9.0-jc304-REePAxaD.cap": {
         "1.0": {
-            "persistent": 0,
-            "transient": 0
+            "persistent": 27888,
+            "transient": 2404
         }
     },
     "PivApplet-0.9.0-jc304-EPSxLaD.cap": {
         "1.0": {
-            "persistent": 152,
-            "transient": 0
+            "persistent": 22212,
+            "transient": 884
         }
     },
     "PivApplet-0.9.0-jc222-RESxLD.cap": {
@@ -305,8 +305,8 @@
     },
     "PivApplet-0.8.1-jc221-RESA.cap": {
         "1.0": {
-            "persistent": 0,
-            "transient": 0
+            "persistent": 26908,
+            "transient": 2148
         }
     },
     "PivApplet-0.8.1-jc221-RES.cap": {
@@ -401,8 +401,8 @@
     },
     "PivApplet-jc222.cap": {
         "1.0": {
-            "persistent": 9812,
-            "transient": 0
+            "persistent": 11292,
+            "transient": 2316
         }
     },
     "PivApplet-jc304.cap": {
