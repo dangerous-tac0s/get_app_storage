@@ -5,6 +5,20 @@ apps use. This was spun off of [GlobalPlatform Pro App Manager](). It pulls a li
 release and then goes through them, extracting the manifest from each cap file. This
 exists mainly as a model for the fdsm version.
 
+## Comparison of the flexSecure v. Apex ecosystem's storage requirements
+For release: v0.19.1
+<br />
+<img src="persistent_storage.png" width="350px" />
+<br />
+<img src="transient_memory.png" width="350px" />
+<br />
+- nfc: apex-ndef v. [openjavacard-ndef-full]() (container size omitted)
+- otp: vivokey-otp
+- pgp: [smartpgp-large](https://github.com/ANSSI-FR/SmartPGP)
+- fido: [fido2]() (attestation cert not in this test--size will be off for gp)
+- tesla: vk version v. the other one
+- hmac: [flexsecure-ykhmac](https://github.com/DangerousThings/flexsecure-ykhmac)
+
 > [!CAUTION]
 > Cards with non-default keys may be bricked
 
