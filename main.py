@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import pprint
 import subprocess
 import time
 import zipfile
@@ -13,10 +14,36 @@ from smartcard.Exceptions import NoCardException, CardConnectionException
 from smartcard.System import readers
 from smartcard.util import toHexString
 
+
+def format_seconds_to_mmss_ssss(total_seconds):
+    """
+    Converts a given number of seconds (float) into mm:ss.ssss format.
+
+    Args:
+        total_seconds (float): The total number of seconds.
+
+    Returns:
+        str: The time formatted as mm:ss.ssss.
+    """
+    # Create a timedelta object from the total seconds
+    td = timedelta(seconds=total_seconds)
+
+    # Extract minutes, seconds, and microseconds
+    minutes = td.seconds // 60
+    seconds = td.seconds % 60
+    microseconds = td.microseconds
+
+    # Format the output string
+    # %02d ensures two digits with leading zero for minutes and seconds
+    # %06d ensures six digits with leading zeros for microseconds
+    # We then slice the microseconds to get the first four digits for .ssss
+    return f"{minutes:02d}:{seconds:02d}.{str(microseconds)[:4].ljust(4, '0')}"
+
+
 REPOS = [
     {"owner": "dangerousthings", "repo": "flexsecure-applets"},
-    {"owner": "arekinath", "repo": "PivApplet"},
-    {"owner": "darconeous", "repo": "gauss-key-card"},
+    # {"owner": "arekinath", "repo": "PivApplet"},
+    # {"owner": "darconeous", "repo": "gauss-key-card"},
 ]
 
 FILENAME = f"applet_storage_by"
@@ -381,6 +408,7 @@ if __name__ == "__main__":
         print("Both 'owner' and 'repo' are required if one is used")
         exit()
 
+    times = {}
     start_time = time.time()
 
     storage_by_app_version = {}
@@ -441,7 +469,7 @@ if __name__ == "__main__":
             for app_name, app_url in sorted(
                 apps.items(), key=lambda item: item[0], reverse=True
             ):
-                if app_name in ["javacard-memory.cap", "keycard.cap"]:
+                if app_name in ["javacard-memory.cap", "keycard.cap", "Satodime.cap"]:
                     continue
 
                 download_path = app_name
@@ -542,6 +570,9 @@ if __name__ == "__main__":
                 )
 
                 app_end_time = time.time()
+                times[f"{app_name} {select_parsed_manifest["app_version"]}"] = (
+                    app_end_time - app_start_time
+                )
 
                 post_install = get_memory(r)
                 while post_install is None:
@@ -602,6 +633,9 @@ if __name__ == "__main__":
             time.sleep(30)
 
     print(f"Elapsed time: {str(timedelta(seconds=int(time.time() - start_time)))}")
+
+    pprint.pprint(times)
+    print(format_seconds_to_mmss_ssss(sum([x for x in times.values()])))
 
     if MODE in ["app", "all"]:
         with open(f"{FILENAME}_app.json", "w") as f:
